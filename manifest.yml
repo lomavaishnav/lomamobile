@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lomamobile
+  host: lomamobile
+  disk_quota: 1024M
+  services:
+  - lomamobile-AdvancedMobileAccess
+  - lomamobile-imfpush
+  - lomamobile-cloudantNoSQLDB
+  - availability-monitoring-auto
